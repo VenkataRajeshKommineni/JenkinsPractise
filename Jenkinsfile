@@ -1,4 +1,4 @@
-job("WhatIsMyName") {
+pipeline {
    agent any
 
    stages {
