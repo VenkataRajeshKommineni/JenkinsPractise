@@ -6,5 +6,5 @@
  */
 
  task whatIsMyName() {
-     print "Sheela Ki Jawani"
+     println "Sheela Ki Jawani"
  }
