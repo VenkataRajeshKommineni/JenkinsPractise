@@ -1,4 +1,4 @@
-pipeline {
+pipelineJob("Test_1") {
    agent any
 
    stages {
