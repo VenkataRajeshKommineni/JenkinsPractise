@@ -17,7 +17,7 @@ pipeline {
             gradle {
                useWrapper(true)
                makeExecutable(true)
-               tasks('clean whatIsMyName')
+               tasks('whatIsMyName')
                switches('--debug')
             }
          }
