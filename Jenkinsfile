@@ -12,5 +12,11 @@ pipeline {
             echo 'World'
          }
       }
+      stage('Gradle Tasks') {
+         steps {
+            shell('echo START')
+            gradle('check')
+         }
+      }
    }
 }
