@@ -13,12 +13,12 @@ pipeline {
          }
       }
       stage('Gradle Tasks') {
-            gradle {
-               useWrapper(true)
-               makeExecutable(true)
-               tasks('clean whatIsMyName')
-               switches('--debug')
-            }
+         gradle {
+            useWrapper(true)
+            makeExecutable(true)
+            tasks('clean whatIsMyName')
+            switches('--debug')
+         }
       }
    }
 }
