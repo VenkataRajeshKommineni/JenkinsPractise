@@ -15,7 +15,11 @@ pipeline {
       stage('Gradle Tasks') {
          steps {
             shell('echo START')
-            gradle('check')
+            gradle {
+               useWrapper(true)
+               makeExecutable(true)
+               tasks('clean')
+            }
          }
       }
    }
