@@ -18,7 +18,7 @@ pipeline {
             gradle {
                useWrapper(true)
                makeExecutable(true)
-               tasks('clean')
+               tasks('clean whatIsMyName')
             }
          }
       }
