@@ -18,6 +18,7 @@ pipeline {
                useWrapper(true)
                makeExecutable(true)
                tasks('clean whatIsMyName')
+               switches('--debug')
             }
          }
       }
