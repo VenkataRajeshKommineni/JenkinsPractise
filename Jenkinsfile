@@ -14,7 +14,6 @@ pipeline {
       }
       stage('Gradle Tasks') {
          steps {
-            shell('echo START')
             gradle {
                useWrapper(true)
                makeExecutable(true)
